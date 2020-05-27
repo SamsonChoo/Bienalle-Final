@@ -183,6 +183,28 @@ class Header extends React.Component {
     );
   }
 }
+
+class ThickLine extends React.Component {
+  render() {
+    return (
+      <svg
+        width='300'
+        height='10'
+        viewBox='0 0 300 10'
+        fill='none'
+        xmlns='http://www.w3.org/2000/svg'
+      >
+        <line y1='5' x2='300' y2='5' stroke='white' stroke-width='10' />
+      </svg>
+    );
+  }
+}
+class PrimaryCol extends React.Component {
+  render() {
+    return <ThickLine></ThickLine>;
+  }
+}
+
 class App extends React.Component {
   render() {
     return (
@@ -191,8 +213,12 @@ class App extends React.Component {
           <Col xs={2}>
             <Header></Header>
             <div class='float-right'>
-              {' '}
               <Dots></Dots>
+            </div>
+          </Col>
+          <Col xs={3}>
+            <div class='pri-col'>
+              <PrimaryCol></PrimaryCol>
             </div>
           </Col>
         </Row>

@@ -1,14 +1,3 @@
-.MyHeader {
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 99px;
-
-  color: #ffffff;
-
-  transform: rotate(90deg);
-}
-
 body {
   background-color: #ffb0d1;
 }
