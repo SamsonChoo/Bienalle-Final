@@ -1,3 +1,27 @@
 body {
   background-color: #ffb0d1;
 }
+
+.pri-words {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 140%;
+
+  color: #ffffff;
+  margin-left: 10%;
+}
+
+.pri-col {
+  margin-top: 20%;
+}
+
+#box1 {
+  display: flex;
+  margin: -50px;
+}
+
+.boxitem {
+  margin: 50px;
+}

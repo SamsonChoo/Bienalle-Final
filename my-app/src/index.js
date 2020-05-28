@@ -199,9 +199,52 @@ class ThickLine extends React.Component {
     );
   }
 }
+
+class ThinLine extends React.Component {
+  render() {
+    return (
+      <svg
+        width='169'
+        height='3'
+        viewBox='0 0 169 3'
+        fill='none'
+        xmlns='http://www.w3.org/2000/svg'
+      >
+        <line
+          x1='-1.31134e-07'
+          y1='1.5'
+          x2='169'
+          y2='1.49999'
+          stroke='white'
+          stroke-width='3'
+        />
+      </svg>
+    );
+  }
+}
 class PrimaryCol extends React.Component {
   render() {
-    return <ThickLine></ThickLine>;
+    return (
+      <div class='flex-column' id='box1'>
+        <div class='boxitem'>
+          <ThickLine></ThickLine>
+          <div class='pri-words'>VBE 2020 Live</div>
+        </div>
+        <div class='boxitem'>
+          <ThinLine></ThinLine>
+          <div class='pri-words'>Research</div>
+        </div>
+        <div class='boxitem'>
+          <ThinLine></ThinLine>
+          <div class='pri-words'>Hybrid Highrise</div>
+          <div class='pri-words'>Commune</div>
+        </div>
+        <div class='boxitem'>
+          <ThinLine></ThinLine>
+          <div class='pri-words'>About</div>
+        </div>
+      </div>
+    );
   }
 }
 
