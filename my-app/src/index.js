@@ -288,7 +288,7 @@ class SecondaryCol extends React.Component {
         <div>
           <ThinLine></ThinLine>
           <div class='sec-words sec-first'>Future Hybrid Highrise Commune</div>
-          <div class='sec-words sec-list slanted'>Become a tenant</div>
+          <div class='sec-words sec-list slanted'>Become a tenant:</div>
           <div class='sec-words sec-list clickable'>
             &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Building Parcelation Live
           </div>
