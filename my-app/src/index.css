@@ -2,6 +2,10 @@ body {
   background-color: #ffb0d1;
 }
 
+.header {
+  margin-top: 15%;
+}
+
 .pri-words {
   font-family: Helvetica Neue;
   font-style: normal;
@@ -14,14 +18,49 @@ body {
 }
 
 .pri-col {
-  margin-top: 20%;
+  margin-top: 22%;
 }
 
 #box1 {
   display: flex;
-  margin: -100px;
+  margin: -30%;
 }
 
 .boxitem {
-  margin: 100px;
+  margin: 18%;
+}
+
+.sec-words {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 140%;
+
+  color: #ffffff;
+  margin-left: 10%;
+}
+
+.sec-first {
+  margin-top: 10px;
+}
+
+.sec-list {
+  margin-top: 31px;
+}
+
+.sec-col {
+  margin-top: 22%;
+}
+
+.slanted {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.clickable {
+  margin-left: 0%;
+}
+
+.box2 {
+  margin-top: 18%;
 }

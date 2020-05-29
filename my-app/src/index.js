@@ -200,23 +200,61 @@ class ThickLine extends React.Component {
   }
 }
 
-class ThinLine extends React.Component {
+class ThickLineShort extends React.Component {
   render() {
     return (
       <svg
         width='169'
-        height='3'
-        viewBox='0 0 169 3'
+        height='10'
+        viewBox='0 0 169 10'
         fill='none'
         xmlns='http://www.w3.org/2000/svg'
       >
         <line
-          x1='-1.31134e-07'
-          y1='1.5'
+          x1='-4.37114e-07'
+          y1='5'
           x2='169'
-          y2='1.49999'
+          y2='4.99999'
           stroke='white'
-          stroke-width='3'
+          stroke-width='10'
+        />
+      </svg>
+    );
+  }
+}
+
+class ThinLine extends React.Component {
+  render() {
+    return (
+      <svg
+        width='300'
+        height='5'
+        viewBox='0 0 300 5'
+        fill='none'
+        xmlns='http://www.w3.org/2000/svg'
+      >
+        <line y1='2.5' x2='300' y2='2.5' stroke='white' stroke-width='5' />
+      </svg>
+    );
+  }
+}
+class ThinLineShort extends React.Component {
+  render() {
+    return (
+      <svg
+        width='169'
+        height='5'
+        viewBox='0 0 169 5'
+        fill='none'
+        xmlns='http://www.w3.org/2000/svg'
+      >
+        <line
+          x1='-2.18557e-07'
+          y1='2.5'
+          x2='169'
+          y2='2.49999'
+          stroke='white'
+          stroke-width='5'
         />
       </svg>
     );
@@ -231,12 +269,39 @@ class PrimaryCol extends React.Component {
           <div class='pri-words'>Hybrid Highrise Commune</div>
         </div>
         <div class='boxitem'>
-          <ThickLine></ThickLine>
+          <ThickLineShort></ThickLineShort>
           <div class='pri-words'>Research</div>
         </div>
         <div class='boxitem'>
-          <ThickLine></ThickLine>
+          <ThickLineShort></ThickLineShort>
           <div class='pri-words'>About</div>
+        </div>
+      </div>
+    );
+  }
+}
+
+class SecondaryCol extends React.Component {
+  render() {
+    return (
+      <div class='flex-column'>
+        <div>
+          <ThinLine></ThinLine>
+          <div class='sec-words sec-first'>Future Hybrid Highrise Commune</div>
+          <div class='sec-words sec-list slanted'>Become a tenant</div>
+          <div class='sec-words sec-list clickable'>
+            &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Building Parcelation Live
+          </div>
+          <div class='sec-words sec-list clickable'>
+            &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Debate
+          </div>
+        </div>
+        <div class='box2'>
+          <ThinLineShort></ThinLineShort>
+          <div class='sec-words sec-first'>Decarbonisation</div>
+          <div class='sec-words sec-list'>Demographic changes</div>
+          <div class='sec-words sec-list'>Participation</div>
+          <div class='sec-words sec-list'>Digital Tools</div>
         </div>
       </div>
     );
@@ -249,14 +314,21 @@ class App extends React.Component {
       <Container fluid>
         <Row>
           <Col xs={2}>
-            <Header></Header>
-            <div class='float-right'>
-              <Dots></Dots>
+            <div class='header'>
+              <Header></Header>
+              <div class='float-right'>
+                <Dots></Dots>
+              </div>
             </div>
           </Col>
           <Col xs={3}>
             <div class='pri-col'>
               <PrimaryCol></PrimaryCol>
+            </div>
+          </Col>
+          <Col xs={3}>
+            <div class='sec-col'>
+              <SecondaryCol></SecondaryCol>
             </div>
           </Col>
         </Row>
