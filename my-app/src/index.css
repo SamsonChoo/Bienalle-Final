@@ -19,9 +19,9 @@ body {
 
 #box1 {
   display: flex;
-  margin: -50px;
+  margin: -100px;
 }
 
 .boxitem {
-  margin: 50px;
+  margin: 100px;
 }

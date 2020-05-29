@@ -228,19 +228,14 @@ class PrimaryCol extends React.Component {
       <div class='flex-column' id='box1'>
         <div class='boxitem'>
           <ThickLine></ThickLine>
-          <div class='pri-words'>VBE 2020 Live</div>
+          <div class='pri-words'>Hybrid Highrise Commune</div>
         </div>
         <div class='boxitem'>
-          <ThinLine></ThinLine>
+          <ThickLine></ThickLine>
           <div class='pri-words'>Research</div>
         </div>
         <div class='boxitem'>
-          <ThinLine></ThinLine>
-          <div class='pri-words'>Hybrid Highrise</div>
-          <div class='pri-words'>Commune</div>
-        </div>
-        <div class='boxitem'>
-          <ThinLine></ThinLine>
+          <ThickLine></ThickLine>
           <div class='pri-words'>About</div>
         </div>
       </div>
