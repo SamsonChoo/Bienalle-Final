@@ -2,6 +2,10 @@ body {
   background-color: #ffb0d1;
 }
 
+.overall {
+  margin-left: -0.6%;
+}
+
 .header {
   margin-top: 15%;
 }

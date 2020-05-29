@@ -311,28 +311,30 @@ class SecondaryCol extends React.Component {
 class App extends React.Component {
   render() {
     return (
-      <Container fluid>
-        <Row>
-          <Col xs={2}>
-            <div class='header'>
-              <Header></Header>
-              <div class='float-right'>
-                <Dots></Dots>
+      <div class='overall'>
+        <Container fluid>
+          <Row>
+            <Col xs={2}>
+              <div class='header'>
+                <Header></Header>
+                <div class='float-right'>
+                  <Dots></Dots>
+                </div>
               </div>
-            </div>
-          </Col>
-          <Col xs={3}>
-            <div class='pri-col'>
-              <PrimaryCol></PrimaryCol>
-            </div>
-          </Col>
-          <Col xs={3}>
-            <div class='sec-col'>
-              <SecondaryCol></SecondaryCol>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+            </Col>
+            <Col xs={3}>
+              <div class='pri-col'>
+                <PrimaryCol></PrimaryCol>
+              </div>
+            </Col>
+            <Col xs={3}>
+              <div class='sec-col'>
+                <SecondaryCol></SecondaryCol>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     );
   }
 }
