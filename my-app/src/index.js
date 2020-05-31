@@ -329,13 +329,13 @@ class SecondaryCol extends React.Component {
 class LandingPage extends React.Component {
   render() {
     return (
-      <div class='overall'>
+      <div class='overall' onClick={this.props.onClick}>
         <Container fluid>
           <Row>
             <Col xs={2}>
               <div class='header'>
                 <LandingHeader></LandingHeader>
-                <div class='float-right'>
+                <div class='float-right dots'>
                   <Dots></Dots>
                 </div>
               </div>
@@ -356,7 +356,7 @@ class App extends React.Component {
             <Col xs={2}>
               <div class='header'>
                 <Header></Header>
-                <div class='float-right'>
+                <div class='float-right dots'>
                   <Dots></Dots>
                 </div>
               </div>
@@ -378,9 +378,35 @@ class App extends React.Component {
   }
 }
 
+class HomePage extends React.Component {
+  constructor() {
+    super();
+    this.state = { currentView: 'home' };
+  }
+
+  handlePageChange = (newPage) => {
+    this.setState({
+      currentScene: newPage,
+    });
+  };
+  render() {
+    const currentView = this.state.currentView;
+    return (
+      <div>
+        {currentView === 'home' && (
+          <LandingPage
+            onClick={() => this.setState({ currentView: 'home2' })}
+          ></LandingPage>
+        )}
+        {currentView === 'home2' && <App></App>}
+      </div>
+    );
+  }
+}
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HomePage />
   </React.StrictMode>,
   document.getElementById('root')
 );
