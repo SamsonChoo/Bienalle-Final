@@ -347,6 +347,53 @@ class LandingPage extends React.Component {
   }
 }
 
+class ThinnestLine extends React.Component {
+  render() {
+    return (
+      <svg
+        width='300'
+        height='2'
+        viewBox='0 0 300 2'
+        fill='none'
+        xmlns='http://www.w3.org/2000/svg'
+      >
+        <line y1='1' x2='300' y2='1' stroke='white' stroke-width='2' />
+      </svg>
+    );
+  }
+}
+
+class TertiaryCol extends React.Component {
+  render() {
+    return (
+      <div class='flex-column'>
+        <div>
+          <ThinnestLine></ThinnestLine>
+          <FutureHybridHighriseCommune></FutureHybridHighriseCommune>
+        </div>
+      </div>
+    );
+  }
+}
+
+class FutureHybridHighriseCommune extends React.Component {
+  render() {
+    return (
+      <div>
+        <div class='ter-words sec-first clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Design Study &#038; Polyvalency
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Design Study &#038; Vertical
+          Community
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Hybrid Construction
+        </div>
+      </div>
+    );
+  }
+}
 class App extends React.Component {
   render() {
     return (
@@ -369,6 +416,11 @@ class App extends React.Component {
             <Col xs={3}>
               <div class='sec-col'>
                 <SecondaryCol></SecondaryCol>
+              </div>
+            </Col>
+            <Col xs={3}>
+              <div class='sec-col'>
+                <TertiaryCol></TertiaryCol>
               </div>
             </Col>
           </Row>

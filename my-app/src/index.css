@@ -72,3 +72,12 @@ body {
 .box2 {
   margin-top: 18%;
 }
+
+.ter-words {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+
+  color: #ffffff;
+}
