@@ -601,11 +601,6 @@ class HomePage extends React.Component {
     this.state = { currentView: 'home' };
   }
 
-  handlePageChange = (newPage) => {
-    this.setState({
-      currentScene: newPage,
-    });
-  };
   render() {
     const currentView = this.state.currentView;
     return (
