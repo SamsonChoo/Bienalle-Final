@@ -394,6 +394,171 @@ class FutureHybridHighriseCommune extends React.Component {
     );
   }
 }
+
+class Research extends React.Component {
+  render() {
+    return (
+      <div>
+        <div class='ter-words sec-first clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Participation/Tool
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Resilience to Change/Tool
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Embodied Carbon
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Hybrid Construction
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Design-based LCA Tool
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Data-based LCA Tool
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;SEA Timber
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Circular Design
+        </div>
+      </div>
+    );
+  }
+}
+
+class Decarbonisation extends React.Component {
+  render() {
+    return (
+      <div>
+        <div class='ter-words sec-first clickable faded'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Participation/Tool
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Resilience to Change/Tool
+        </div>
+        <div class='ter-words sec-list clickable faded'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Embodied Carbon
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Hybrid Construction
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Design-based LCA Tool
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Data-based LCA Tool
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;SEA Timber
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Circular Design
+        </div>
+      </div>
+    );
+  }
+}
+
+class DemographicChanges extends React.Component {
+  render() {
+    return (
+      <div>
+        <div class='ter-words sec-first clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Participation/Tool
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Resilience to Change/Tool
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Embodied Carbon
+        </div>
+        <div class='ter-words sec-list clickable faded'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Hybrid Construction
+        </div>
+        <div class='ter-words sec-list clickable faded'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Design-based LCA Tool
+        </div>
+        <div class='ter-words sec-list clickable faded'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Data-based LCA Tool
+        </div>
+        <div class='ter-words sec-list clickable faded'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;SEA Timber
+        </div>
+        <div class='ter-words sec-list clickable faded'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Circular Design
+        </div>
+      </div>
+    );
+  }
+}
+
+class Participation extends React.Component {
+  render() {
+    return (
+      <div>
+        <div class='ter-words sec-first clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Participation/Tool
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Resilience to Change/Tool
+        </div>
+        <div class='ter-words sec-list clickable faded'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Embodied Carbon
+        </div>
+        <div class='ter-words sec-list clickable faded'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Hybrid Construction
+        </div>
+        <div class='ter-words sec-list clickable faded'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Design-based LCA Tool
+        </div>
+        <div class='ter-words sec-list clickable faded'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Data-based LCA Tool
+        </div>
+        <div class='ter-words sec-list clickable faded'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;SEA Timber
+        </div>
+        <div class='ter-words sec-list clickable faded'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Circular Design
+        </div>
+      </div>
+    );
+  }
+}
+
+class DigitalTools extends React.Component {
+  render() {
+    return (
+      <div>
+        <div class='ter-words sec-first clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Participation/Tool
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Resilience to Change/Tool
+        </div>
+        <div class='ter-words sec-list clickable faded'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Embodied Carbon
+        </div>
+        <div class='ter-words sec-list clickable faded'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Hybrid Construction
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Design-based LCA Tool
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Data-based LCA Tool
+        </div>
+        <div class='ter-words sec-list clickable faded'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;SEA Timber
+        </div>
+        <div class='ter-words sec-list clickable faded'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Circular Design
+        </div>
+      </div>
+    );
+  }
+}
 class App extends React.Component {
   render() {
     return (
