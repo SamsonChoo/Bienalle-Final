@@ -286,11 +286,11 @@ class PrimaryCol extends React.Component {
           <ThickLine></ThickLine>
           <div class='pri-words'>Hybrid Highrise Commune</div>
         </div>
-        <div class='boxitem' onClick={this.props.onClick}>
+        <div class='boxitem' onClick={this.props.onClickResearch}>
           <ThickLineShort></ThickLineShort>
           <div class='pri-words'>Research</div>
         </div>
-        <div class='boxitem'>
+        <div class='boxitem' onClick={this.props.onClickAbout}>
           <ThickLineShort></ThickLineShort>
           <div class='pri-words'>About</div>
         </div>
@@ -419,6 +419,12 @@ class TertiaryCol extends React.Component {
           <div>
             <ThinnestLine></ThinnestLine>
             <DigitalTools></DigitalTools>
+          </div>
+        )}
+        {currentView === 'about' && (
+          <div>
+            <ThinnestLine></ThinnestLine>
+            <About></About>
           </div>
         )}
       </div>
@@ -620,10 +626,10 @@ class About extends React.Component {
         <div class='ter-words sec-list clickable'>
           &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Team + Partners
         </div>
-        <div class='ter-words sec-list clickable faded'>
+        <div class='ter-words sec-list clickable'>
           &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Publications
         </div>
-        <div class='ter-words sec-list clickable faded'>
+        <div class='ter-words sec-list clickable'>
           &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Contract
         </div>
       </div>
@@ -660,7 +666,10 @@ class App extends React.Component {
             <Col xs={3}>
               <div class='pri-col'>
                 <PrimaryCol
-                  onClick={() => this.setState({ currentView: 'research' })}
+                  onClickResearch={() =>
+                    this.setState({ currentView: 'research' })
+                  }
+                  onClickAbout={() => this.setState({ currentView: 'about' })}
                 ></PrimaryCol>
               </div>
             </Col>
