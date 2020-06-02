@@ -305,7 +305,9 @@ class SecondaryCol extends React.Component {
       <div class='flex-column'>
         <div>
           <ThinLine></ThinLine>
-          <div class='sec-words sec-first'>Future Hybrid Highrise Commune</div>
+          <div class='sec-words sec-first' onClick={this.props.onClickHighRise}>
+            Future Hybrid Highrise Commune
+          </div>
           <div class='sec-words sec-list slanted'>Become a tenant:</div>
           <div class='sec-words sec-list clickable'>
             &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Building Parcelation Live
@@ -316,10 +318,24 @@ class SecondaryCol extends React.Component {
         </div>
         <div class='box2'>
           <ThinLineShort></ThinLineShort>
-          <div class='sec-words sec-first'>Decarbonisation</div>
-          <div class='sec-words sec-list'>Demographic changes</div>
-          <div class='sec-words sec-list'>Participation</div>
-          <div class='sec-words sec-list'>Digital Tools</div>
+          <div class='sec-words sec-first' onClick={this.props.onClickDecarb}>
+            Decarbonisation
+          </div>
+          <div
+            class='sec-words sec-list'
+            onClick={this.props.onClickDemographic}
+          >
+            Demographic changes
+          </div>
+          <div
+            class='sec-words sec-list'
+            onClick={this.props.onClickParticipation}
+          >
+            Participation
+          </div>
+          <div class='sec-words sec-list' onClick={this.props.onClickDigital}>
+            Digital Tools
+          </div>
         </div>
       </div>
     );
@@ -629,7 +645,23 @@ class App extends React.Component {
             </Col>
             <Col xs={3}>
               <div class='sec-col'>
-                <SecondaryCol></SecondaryCol>
+                <SecondaryCol
+                  onClickHighRise={() =>
+                    this.setState({ currentView: 'highrise' })
+                  }
+                  onClickDecarb={() =>
+                    this.setState({ currentView: 'decarbonisation' })
+                  }
+                  onClickDemographic={() =>
+                    this.setState({ currentView: 'demographic' })
+                  }
+                  onClickParticipation={() =>
+                    this.setState({ currentView: 'participation' })
+                  }
+                  onClickDigital={() =>
+                    this.setState({ currentView: 'digital' })
+                  }
+                ></SecondaryCol>
               </div>
             </Col>
             <Col xs={3}>
