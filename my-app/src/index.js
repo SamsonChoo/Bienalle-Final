@@ -286,7 +286,7 @@ class PrimaryCol extends React.Component {
           <ThickLine></ThickLine>
           <div class='pri-words'>Hybrid Highrise Commune</div>
         </div>
-        <div class='boxitem'>
+        <div class='boxitem' onClick={this.props.onClick}>
           <ThickLineShort></ThickLineShort>
           <div class='pri-words'>Research</div>
         </div>
@@ -365,12 +365,46 @@ class ThinnestLine extends React.Component {
 
 class TertiaryCol extends React.Component {
   render() {
+    const currentView = this.props.currentView;
     return (
       <div class='flex-column'>
-        <div>
-          <ThinnestLine></ThinnestLine>
-          <FutureHybridHighriseCommune></FutureHybridHighriseCommune>
-        </div>
+        {currentView === 'none' && <div></div>}
+        {currentView === 'highrise' && (
+          <div>
+            <ThinnestLine></ThinnestLine>
+            <FutureHybridHighriseCommune></FutureHybridHighriseCommune>
+          </div>
+        )}
+        {currentView === 'research' && (
+          <div>
+            <ThinnestLine></ThinnestLine>
+            <Research></Research>
+          </div>
+        )}
+        {currentView === 'decarbonisation' && (
+          <div>
+            <ThinnestLine></ThinnestLine>
+            <Decarbonisation></Decarbonisation>
+          </div>
+        )}
+        {currentView === 'demographic' && (
+          <div>
+            <ThinnestLine></ThinnestLine>
+            <DemographicChanges></DemographicChanges>
+          </div>
+        )}
+        {currentView === 'participation' && (
+          <div>
+            <ThinnestLine></ThinnestLine>
+            <Participation></Participation>
+          </div>
+        )}
+        {currentView === 'digital' && (
+          <div>
+            <ThinnestLine></ThinnestLine>
+            <DigitalTools></DigitalTools>
+          </div>
+        )}
       </div>
     );
   }
@@ -560,6 +594,19 @@ class DigitalTools extends React.Component {
   }
 }
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { currentView: '' };
+  }
+
+  componentDidMount() {
+    this.timerID = setInterval(() => this.tick(), 1000);
+  }
+
+  tick() {
+    console.log(this.state);
+  }
+
   render() {
     return (
       <div class='overall'>
@@ -575,7 +622,9 @@ class App extends React.Component {
             </Col>
             <Col xs={3}>
               <div class='pri-col'>
-                <PrimaryCol></PrimaryCol>
+                <PrimaryCol
+                  onClick={() => this.setState({ currentView: 'research' })}
+                ></PrimaryCol>
               </div>
             </Col>
             <Col xs={3}>
@@ -585,7 +634,7 @@ class App extends React.Component {
             </Col>
             <Col xs={3}>
               <div class='sec-col'>
-                <TertiaryCol></TertiaryCol>
+                <TertiaryCol currentView={this.state.currentView}></TertiaryCol>
               </div>
             </Col>
           </Row>
