@@ -5,13 +5,13 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './index.css';
 import Dots from './svg/Dots';
-import LandingHeader from './svg/LandingHeader';
 import Header from './svg/Header';
 import ThickLine from './svg/ThickLine';
 import ThickLineShort from './svg/ThickLineShort';
 import ThinLine from './svg/ThinLine';
 import ThinLineShort from './svg/ThinLineShort';
 import ThinnestLine from './svg/ThinnestLine';
+import LandingPage from './LandingPage';
 
 class PrimaryCol extends React.Component {
   render() {
@@ -72,27 +72,6 @@ class SecondaryCol extends React.Component {
             Digital Tools
           </div>
         </div>
-      </div>
-    );
-  }
-}
-
-class LandingPage extends React.Component {
-  render() {
-    return (
-      <div class='overall' onClick={this.props.onClick}>
-        <Container fluid>
-          <Row>
-            <Col xs={2}>
-              <div class='header'>
-                <LandingHeader></LandingHeader>
-                <div class='float-right dots'>
-                  <Dots></Dots>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </Container>
       </div>
     );
   }
