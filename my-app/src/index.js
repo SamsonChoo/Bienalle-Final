@@ -609,6 +609,27 @@ class DigitalTools extends React.Component {
     );
   }
 }
+
+class About extends React.Component {
+  render() {
+    return (
+      <div>
+        <div class='ter-words sec-first clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Project
+        </div>
+        <div class='ter-words sec-list clickable'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Team + Partners
+        </div>
+        <div class='ter-words sec-list clickable faded'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Publications
+        </div>
+        <div class='ter-words sec-list clickable faded'>
+          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Contract
+        </div>
+      </div>
+    );
+  }
+}
 class App extends React.Component {
   constructor(props) {
     super(props);
