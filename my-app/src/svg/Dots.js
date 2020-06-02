@@ -16,7 +16,7 @@ export default class Dots extends React.Component {
           x2='27.5'
           y2='0.875'
           stroke='white'
-          stroke-linecap='round'
+          strokeLinecap='round'
         />
         <line
           x1='0.5'
@@ -24,7 +24,7 @@ export default class Dots extends React.Component {
           x2='27.5'
           y2='66.25'
           stroke='white'
-          stroke-linecap='round'
+          strokeLinecap='round'
         />
         <line
           x1='0.5'
@@ -32,7 +32,7 @@ export default class Dots extends React.Component {
           x2='27.5'
           y2='131.625'
           stroke='white'
-          stroke-linecap='round'
+          strokeLinecap='round'
         />
         <line
           x1='0.5'
@@ -40,7 +40,7 @@ export default class Dots extends React.Component {
           x2='27.5'
           y2='197'
           stroke='white'
-          stroke-linecap='round'
+          strokeLinecap='round'
         />
         <line
           x1='0.5'
@@ -48,7 +48,7 @@ export default class Dots extends React.Component {
           x2='27.5'
           y2='512.875'
           stroke='white'
-          stroke-linecap='round'
+          strokeLinecap='round'
         />
         <line
           x1='0.5'
@@ -56,7 +56,7 @@ export default class Dots extends React.Component {
           x2='27.5'
           y2='578.25'
           stroke='white'
-          stroke-linecap='round'
+          strokeLinecap='round'
         />
         <line
           x1='0.5'
@@ -64,7 +64,7 @@ export default class Dots extends React.Component {
           x2='27.5'
           y2='447.5'
           stroke='white'
-          stroke-linecap='round'
+          strokeLinecap='round'
         />
         <line
           x1='0.5'
@@ -72,7 +72,7 @@ export default class Dots extends React.Component {
           x2='27.5'
           y2='643.625'
           stroke='white'
-          stroke-linecap='round'
+          strokeLinecap='round'
         />
         <line
           x1='0.5'
@@ -80,7 +80,7 @@ export default class Dots extends React.Component {
           x2='27.5'
           y2='709'
           stroke='white'
-          stroke-linecap='round'
+          strokeLinecap='round'
         />
         <line
           x1='0.5'
@@ -88,7 +88,7 @@ export default class Dots extends React.Component {
           x2='27.5'
           y2='259.625'
           stroke='white'
-          stroke-linecap='round'
+          strokeLinecap='round'
         />
         <line
           x1='0.5'
@@ -96,7 +96,7 @@ export default class Dots extends React.Component {
           x2='27.5'
           y2='322.25'
           stroke='white'
-          stroke-linecap='round'
+          strokeLinecap='round'
         />
         <line
           x1='0.5'
@@ -104,7 +104,7 @@ export default class Dots extends React.Component {
           x2='27.5'
           y2='197'
           stroke='white'
-          stroke-linecap='round'
+          strokeLinecap='round'
         />
         <line
           x1='0.5'
@@ -112,7 +112,7 @@ export default class Dots extends React.Component {
           x2='27.5'
           y2='384.875'
           stroke='white'
-          stroke-linecap='round'
+          strokeLinecap='round'
         />
         <line
           x1='0.5'
@@ -120,7 +120,7 @@ export default class Dots extends React.Component {
           x2='27.5'
           y2='447.5'
           stroke='white'
-          stroke-linecap='round'
+          strokeLinecap='round'
         />
         <line
           x1='0.5'
@@ -128,7 +128,7 @@ export default class Dots extends React.Component {
           x2='27.5'
           y2='771.625'
           stroke='white'
-          stroke-linecap='round'
+          strokeLinecap='round'
         />
         <line
           x1='0.5'
@@ -136,7 +136,7 @@ export default class Dots extends React.Component {
           x2='27.5'
           y2='834.25'
           stroke='white'
-          stroke-linecap='round'
+          strokeLinecap='round'
         />
         <line
           x1='0.5'
@@ -144,7 +144,7 @@ export default class Dots extends React.Component {
           x2='27.5'
           y2='709'
           stroke='white'
-          stroke-linecap='round'
+          strokeLinecap='round'
         />
         <line
           x1='0.5'
@@ -152,7 +152,7 @@ export default class Dots extends React.Component {
           x2='27.5'
           y2='896.875'
           stroke='white'
-          stroke-linecap='round'
+          strokeLinecap='round'
         />
       </svg>
     );
