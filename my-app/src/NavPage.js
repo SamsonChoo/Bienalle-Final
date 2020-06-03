@@ -16,7 +16,11 @@ class PrimaryCol extends React.Component {
   render() {
     return (
       <div class='flex-column' id='box1'>
-        <div class='boxitem'>
+        <div
+          class='boxitem'
+          onClick={this.props.onClickHighRise}
+          onMouseOver={this.props.onClickHighRise}
+        >
           <ThickLine></ThickLine>
           <div class='pri-words'>Hybrid Highrise Commune</div>
         </div>
@@ -45,13 +49,9 @@ class SecondaryCol extends React.Component {
   render() {
     return (
       <div class='flex-column'>
-        <div>
+        <div onMouseOver={this.props.onClickHighRise}>
           <ThinLine></ThinLine>
-          <div
-            class='sec-words sec-first'
-            onClick={this.props.onClickHighRise}
-            onMouseOver={this.props.onClickHighRise}
-          >
+          <div class='sec-words sec-first' onClick={this.props.onClickHighRise}>
             Future Hybrid Highrise Commune
           </div>
           <div class='sec-words sec-list slanted'>Become a tenant:</div>
@@ -385,31 +385,60 @@ export default class NavPage extends React.Component {
             <Col xs={3}>
               <div class='pri-col'>
                 <PrimaryCol
-                  onClickResearch={() =>
-                    this.setState({ currentView: 'research' })
-                  }
-                  onClickAbout={() => this.setState({ currentView: 'about' })}
+                  onClickHighRise={() => {
+                    this.setState({
+                      currentView: 'highrise',
+                    });
+                    document.body.style.backgroundColor = '#FFCC19';
+                  }}
+                  onClickResearch={() => {
+                    this.setState({
+                      currentView: 'research',
+                    });
+                    document.body.style.backgroundColor = '#85E2B5';
+                  }}
+                  onClickAbout={() => {
+                    this.setState({
+                      currentView: 'about',
+                    });
+                    document.body.style.backgroundColor = '#A5BBC8';
+                  }}
                 ></PrimaryCol>
               </div>
             </Col>
             <Col xs={3}>
               <div class='sec-col'>
                 <SecondaryCol
-                  onClickHighRise={() =>
-                    this.setState({ currentView: 'highrise' })
-                  }
-                  onClickDecarb={() =>
-                    this.setState({ currentView: 'decarbonisation' })
-                  }
-                  onClickDemographic={() =>
-                    this.setState({ currentView: 'demographic' })
-                  }
-                  onClickParticipation={() =>
-                    this.setState({ currentView: 'participation' })
-                  }
-                  onClickDigital={() =>
-                    this.setState({ currentView: 'digital' })
-                  }
+                  onClickHighRise={() => {
+                    this.setState({
+                      currentView: 'highrise',
+                    });
+                    document.body.style.backgroundColor = '#FFCC19';
+                  }}
+                  onClickDecarb={() => {
+                    this.setState({
+                      currentView: 'decarbonisation',
+                    });
+                    document.body.style.backgroundColor = '#85E2B5';
+                  }}
+                  onClickDemographic={() => {
+                    this.setState({
+                      currentView: 'demographic',
+                    });
+                    document.body.style.backgroundColor = '#85E2B5';
+                  }}
+                  onClickParticipation={() => {
+                    this.setState({
+                      currentView: 'participation',
+                    });
+                    document.body.style.backgroundColor = '#85E2B5';
+                  }}
+                  onClickDigital={() => {
+                    this.setState({
+                      currentView: 'digital',
+                    });
+                    document.body.style.backgroundColor = '#85E2B5';
+                  }}
                 ></SecondaryCol>
               </div>
             </Col>
