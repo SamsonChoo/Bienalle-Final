@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Bienalle-Final/static/css/main.a2fea81b.chunk.css",
+    "main.js": "/Bienalle-Final/static/js/main.377d6d59.chunk.js",
+    "main.js.map": "/Bienalle-Final/static/js/main.377d6d59.chunk.js.map",
+    "runtime-main.js": "/Bienalle-Final/static/js/runtime-main.fbb2ab42.js",
+    "runtime-main.js.map": "/Bienalle-Final/static/js/runtime-main.fbb2ab42.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/Bienalle-Final/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.315ddaa3.chunk.js": "/Bienalle-Final/static/js/2.315ddaa3.chunk.js",
+    "static/js/2.315ddaa3.chunk.js.map": "/Bienalle-Final/static/js/2.315ddaa3.chunk.js.map",
+    "index.html": "/Bienalle-Final/index.html",
+    "precache-manifest.6d1941ec9589319cc72026ce3315c043.js": "/Bienalle-Final/precache-manifest.6d1941ec9589319cc72026ce3315c043.js",
+    "service-worker.js": "/Bienalle-Final/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/Bienalle-Final/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.a2fea81b.chunk.css.map": "/Bienalle-Final/static/css/main.a2fea81b.chunk.css.map",
+    "static/js/2.315ddaa3.chunk.js.LICENSE.txt": "/Bienalle-Final/static/js/2.315ddaa3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fbb2ab42.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.315ddaa3.chunk.js",
+    "static/css/main.a2fea81b.chunk.css",
+    "static/js/main.377d6d59.chunk.js"
+  ]
+}
