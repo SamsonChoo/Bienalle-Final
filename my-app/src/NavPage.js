@@ -20,11 +20,19 @@ class PrimaryCol extends React.Component {
           <ThickLine></ThickLine>
           <div class='pri-words'>Hybrid Highrise Commune</div>
         </div>
-        <div class='boxitem' onClick={this.props.onClickResearch}>
+        <div
+          class='boxitem'
+          onClick={this.props.onClickResearch}
+          onMouseOver={this.props.onClickResearch}
+        >
           <ThickLineShort></ThickLineShort>
           <div class='pri-words'>Research</div>
         </div>
-        <div class='boxitem' onClick={this.props.onClickAbout}>
+        <div
+          class='boxitem'
+          onClick={this.props.onClickAbout}
+          onMouseOver={this.props.onClickAbout}
+        >
           <ThickLineShort></ThickLineShort>
           <div class='pri-words'>About</div>
         </div>
@@ -39,7 +47,11 @@ class SecondaryCol extends React.Component {
       <div class='flex-column'>
         <div>
           <ThinLine></ThinLine>
-          <div class='sec-words sec-first' onClick={this.props.onClickHighRise}>
+          <div
+            class='sec-words sec-first'
+            onClick={this.props.onClickHighRise}
+            onMouseOver={this.props.onClickHighRise}
+          >
             Future Hybrid Highrise Commune
           </div>
           <div class='sec-words sec-list slanted'>Become a tenant:</div>
@@ -52,22 +64,32 @@ class SecondaryCol extends React.Component {
         </div>
         <div class='box2'>
           <ThinLineShort></ThinLineShort>
-          <div class='sec-words sec-first' onClick={this.props.onClickDecarb}>
+          <div
+            class='sec-words sec-first'
+            onClick={this.props.onClickDecarb}
+            onMouseOver={this.props.onClickDecarb}
+          >
             Decarbonisation
           </div>
           <div
             class='sec-words sec-list'
             onClick={this.props.onClickDemographic}
+            onMouseOver={this.props.onClickDemographic}
           >
             Demographic changes
           </div>
           <div
             class='sec-words sec-list'
             onClick={this.props.onClickParticipation}
+            onMouseOver={this.props.onClickParticipation}
           >
             Participation
           </div>
-          <div class='sec-words sec-list' onClick={this.props.onClickDigital}>
+          <div
+            class='sec-words sec-list'
+            onClick={this.props.onClickDigital}
+            onMouseOver={this.props.onClickDigital}
+          >
             Digital Tools
           </div>
         </div>
