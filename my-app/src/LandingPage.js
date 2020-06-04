@@ -9,12 +9,12 @@ import './index.css';
 export default class LandingPage extends React.Component {
   render() {
     return (
-      <div className='overall' onClick={this.props.onClick}>
+      <div className='overall'>
         <Container fluid>
           <Row>
             <Col xs={2}>
               <div className='header'>
-                <LandingHeader></LandingHeader>
+                <LandingHeader onClick={this.props.onClick}></LandingHeader>
                 <div className='float-right dots'>
                   <Dots></Dots>
                 </div>

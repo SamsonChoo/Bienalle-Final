@@ -4,6 +4,7 @@ export default class LandingHeader extends React.Component {
   render() {
     return (
       <svg
+        onClick={this.props.onClick}
         width='172'
         height='901'
         viewBox='0 0 172 901'
