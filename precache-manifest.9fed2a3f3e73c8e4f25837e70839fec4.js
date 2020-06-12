@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99ee27e762c8c339cd382d3ffb66fc2b",
+    "revision": "2b01168d41d2ff2cb122eff32d36727b",
     "url": "/Bienalle-Final/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Bienalle-Final/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "3addb9d27b58bedb1763",
-    "url": "/Bienalle-Final/static/css/main.9bae4b9e.chunk.css"
+    "revision": "af6675817dfaa084024f",
+    "url": "/Bienalle-Final/static/css/main.58a7ab09.chunk.css"
   },
   {
     "revision": "56a930cc4182cb7d1752",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Bienalle-Final/static/js/2.3f8b6475.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3addb9d27b58bedb1763",
-    "url": "/Bienalle-Final/static/js/main.1ff89fac.chunk.js"
+    "revision": "af6675817dfaa084024f",
+    "url": "/Bienalle-Final/static/js/main.c45cd8d8.chunk.js"
   },
   {
     "revision": "8b6f766815dd4d38ade7",
