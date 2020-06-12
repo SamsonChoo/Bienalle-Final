@@ -30,11 +30,7 @@ class PrimaryCol extends React.Component {
           <ThickLine></ThickLine>
           <div class='pri-words'>Research</div>
         </div>
-        <div
-          class='boxitem'
-          onClick={this.props.onClickAbout}
-          onMouseOver={this.props.onClickAbout}
-        >
+        <div class='boxitem' onMouseOver={this.props.onClickAbout}>
           <ThickLine></ThickLine>
           <div class='pri-words'>About</div>
         </div>
@@ -89,6 +85,15 @@ class SecondaryCol extends React.Component {
             Digital Tools
           </div>
         </div>
+        <div onMouseOver={this.props.onClickAbout} class='box2'>
+          <ThinLine></ThinLine>
+          <div class='sec-words sec-first clickable'>> &nbsp;Project</div>
+          <div class='sec-words sec-list clickable'>
+            > &nbsp;Team + Partners
+          </div>
+          <div class='sec-words sec-list clickable'>> &nbsp;Publications</div>
+          <div class='sec-words sec-list clickable'>> &nbsp;Contract</div>
+        </div>
       </div>
     );
   }
@@ -134,12 +139,6 @@ class TertiaryCol extends React.Component {
           <div>
             <ThinnestLine></ThinnestLine>
             <DigitalTools></DigitalTools>
-          </div>
-        )}
-        {currentView === 'about' && (
-          <div>
-            <ThinnestLine></ThinnestLine>
-            <About></About>
           </div>
         )}
       </div>
@@ -312,18 +311,6 @@ class DigitalTools extends React.Component {
   }
 }
 
-class About extends React.Component {
-  render() {
-    return (
-      <div>
-        <div class='ter-words sec-first clickable'>> &nbsp;Project</div>
-        <div class='ter-words sec-list clickable'>> &nbsp;Team + Partners</div>
-        <div class='ter-words sec-list clickable'>> &nbsp;Publications</div>
-        <div class='ter-words sec-list clickable'>> &nbsp;Contract</div>
-      </div>
-    );
-  }
-}
 export default class NavPage extends React.Component {
   constructor(props) {
     super(props);
@@ -367,9 +354,6 @@ export default class NavPage extends React.Component {
                     document.body.style.backgroundColor = '#85E2B5';
                   }}
                   onClickAbout={() => {
-                    this.setState({
-                      currentView: 'about',
-                    });
                     document.body.style.backgroundColor = '#A5BBC8';
                   }}
                 ></PrimaryCol>
@@ -407,6 +391,9 @@ export default class NavPage extends React.Component {
                       currentView: 'digital',
                     });
                     document.body.style.backgroundColor = '#85E2B5';
+                  }}
+                  onClickAbout={() => {
+                    document.body.style.backgroundColor = '#A5BBC8';
                   }}
                 ></SecondaryCol>
               </div>
