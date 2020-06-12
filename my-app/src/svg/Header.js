@@ -4,6 +4,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <svg
+        className='headersvg'
         width='171'
         height='899'
         viewBox='0 0 171 899'
