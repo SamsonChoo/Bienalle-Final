@@ -7,7 +7,7 @@ import CYU from './CYU';
 
 ReactDOM.render(
   <React.StrictMode>
-    <CYU />
+    <HomePage />
   </React.StrictMode>,
   document.getElementById('root')
 );

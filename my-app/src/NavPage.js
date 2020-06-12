@@ -6,9 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Dots from './svg/Dots';
 import Header from './svg/Header';
 import ThickLine from './svg/ThickLine';
-import ThickLineShort from './svg/ThickLineShort';
 import ThinLine from './svg/ThinLine';
-import ThinLineShort from './svg/ThinLineShort';
 import ThinnestLine from './svg/ThinnestLine';
 import './index.css';
 
@@ -29,7 +27,7 @@ class PrimaryCol extends React.Component {
           onClick={this.props.onClickResearch}
           onMouseOver={this.props.onClickResearch}
         >
-          <ThickLineShort></ThickLineShort>
+          <ThickLine></ThickLine>
           <div class='pri-words'>Research</div>
         </div>
         <div
@@ -37,7 +35,7 @@ class PrimaryCol extends React.Component {
           onClick={this.props.onClickAbout}
           onMouseOver={this.props.onClickAbout}
         >
-          <ThickLineShort></ThickLineShort>
+          <ThickLine></ThickLine>
           <div class='pri-words'>About</div>
         </div>
       </div>
@@ -63,7 +61,7 @@ class SecondaryCol extends React.Component {
           </div>
         </div>
         <div class='box2'>
-          <ThinLineShort></ThinLineShort>
+          <ThinLine></ThinLine>
           <div
             class='sec-words sec-first'
             onClick={this.props.onClickDecarb}
