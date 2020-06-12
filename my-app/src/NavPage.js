@@ -54,11 +54,9 @@ class SecondaryCol extends React.Component {
           </div>
           <div class='sec-words sec-list slanted'>Become a tenant:</div>
           <div class='sec-words sec-list clickable'>
-            &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Building Parcelation Live
+            > &nbsp;Building Parcelation Live
           </div>
-          <div class='sec-words sec-list clickable'>
-            &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Debate
-          </div>
+          <div class='sec-words sec-list clickable'>> &nbsp;Debate</div>
         </div>
         <div class='box2'>
           <ThinLine></ThinLine>
@@ -154,14 +152,13 @@ class FutureHybridHighriseCommune extends React.Component {
     return (
       <div>
         <div class='ter-words sec-first clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Design Study &#038; Polyvalency
+          > &nbsp;Design Study &#038; Polyvalency
         </div>
         <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Design Study &#038; Vertical
-          Community
+          > &nbsp;Design Study &#038; Vertical Community
         </div>
         <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Hybrid Construction
+          > &nbsp;Hybrid Construction
         </div>
       </div>
     );
@@ -173,29 +170,23 @@ class Research extends React.Component {
     return (
       <div>
         <div class='ter-words sec-first clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Participation/Tool
+          > &nbsp;Participation/Tool
         </div>
         <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Resilience to Change/Tool
+          > &nbsp;Resilience to Change/Tool
+        </div>
+        <div class='ter-words sec-list clickable'>> &nbsp;Embodied Carbon</div>
+        <div class='ter-words sec-list clickable'>
+          > &nbsp;Hybrid Construction
         </div>
         <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Embodied Carbon
+          > &nbsp;Design-based LCA Tool
         </div>
         <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Hybrid Construction
+          > &nbsp;Data-based LCA Tool
         </div>
-        <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Design-based LCA Tool
-        </div>
-        <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Data-based LCA Tool
-        </div>
-        <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;SEA Timber
-        </div>
-        <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Circular Design
-        </div>
+        <div class='ter-words sec-list clickable'>> &nbsp;SEA Timber</div>
+        <div class='ter-words sec-list clickable'>> &nbsp;Circular Design</div>
       </div>
     );
   }
@@ -206,29 +197,25 @@ class Decarbonisation extends React.Component {
     return (
       <div>
         <div class='ter-words sec-first clickable faded'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Participation/Tool
+          > &nbsp;Participation/Tool
         </div>
         <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Resilience to Change/Tool
+          > &nbsp;Resilience to Change/Tool
         </div>
         <div class='ter-words sec-list clickable faded'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Embodied Carbon
+          > &nbsp;Embodied Carbon
         </div>
         <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Hybrid Construction
+          > &nbsp;Hybrid Construction
         </div>
         <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Design-based LCA Tool
+          > &nbsp;Design-based LCA Tool
         </div>
         <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Data-based LCA Tool
+          > &nbsp;Data-based LCA Tool
         </div>
-        <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;SEA Timber
-        </div>
-        <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Circular Design
-        </div>
+        <div class='ter-words sec-list clickable'>> &nbsp;SEA Timber</div>
+        <div class='ter-words sec-list clickable'>> &nbsp;Circular Design</div>
       </div>
     );
   }
@@ -239,28 +226,24 @@ class DemographicChanges extends React.Component {
     return (
       <div>
         <div class='ter-words sec-first clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Participation/Tool
+          > &nbsp;Participation/Tool
         </div>
         <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Resilience to Change/Tool
+          > &nbsp;Resilience to Change/Tool
         </div>
-        <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Embodied Carbon
+        <div class='ter-words sec-list clickable'>> &nbsp;Embodied Carbon</div>
+        <div class='ter-words sec-list clickable faded'>
+          > &nbsp;Hybrid Construction
         </div>
         <div class='ter-words sec-list clickable faded'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Hybrid Construction
+          > &nbsp;Design-based LCA Tool
         </div>
         <div class='ter-words sec-list clickable faded'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Design-based LCA Tool
+          > &nbsp;Data-based LCA Tool
         </div>
+        <div class='ter-words sec-list clickable faded'>> &nbsp;SEA Timber</div>
         <div class='ter-words sec-list clickable faded'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Data-based LCA Tool
-        </div>
-        <div class='ter-words sec-list clickable faded'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;SEA Timber
-        </div>
-        <div class='ter-words sec-list clickable faded'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Circular Design
+          > &nbsp;Circular Design
         </div>
       </div>
     );
@@ -272,28 +255,26 @@ class Participation extends React.Component {
     return (
       <div>
         <div class='ter-words sec-first clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Participation/Tool
+          > &nbsp;Participation/Tool
         </div>
         <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Resilience to Change/Tool
+          > &nbsp;Resilience to Change/Tool
         </div>
         <div class='ter-words sec-list clickable faded'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Embodied Carbon
+          > &nbsp;Embodied Carbon
         </div>
         <div class='ter-words sec-list clickable faded'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Hybrid Construction
+          > &nbsp;Hybrid Construction
         </div>
         <div class='ter-words sec-list clickable faded'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Design-based LCA Tool
+          > &nbsp;Design-based LCA Tool
         </div>
         <div class='ter-words sec-list clickable faded'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Data-based LCA Tool
+          > &nbsp;Data-based LCA Tool
         </div>
+        <div class='ter-words sec-list clickable faded'>> &nbsp;SEA Timber</div>
         <div class='ter-words sec-list clickable faded'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;SEA Timber
-        </div>
-        <div class='ter-words sec-list clickable faded'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Circular Design
+          > &nbsp;Circular Design
         </div>
       </div>
     );
@@ -305,28 +286,26 @@ class DigitalTools extends React.Component {
     return (
       <div>
         <div class='ter-words sec-first clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Participation/Tool
+          > &nbsp;Participation/Tool
         </div>
         <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Resilience to Change/Tool
+          > &nbsp;Resilience to Change/Tool
         </div>
         <div class='ter-words sec-list clickable faded'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Embodied Carbon
+          > &nbsp;Embodied Carbon
         </div>
         <div class='ter-words sec-list clickable faded'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Hybrid Construction
+          > &nbsp;Hybrid Construction
         </div>
         <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Design-based LCA Tool
+          > &nbsp;Design-based LCA Tool
         </div>
         <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Data-based LCA Tool
+          > &nbsp;Data-based LCA Tool
         </div>
+        <div class='ter-words sec-list clickable faded'>> &nbsp;SEA Timber</div>
         <div class='ter-words sec-list clickable faded'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;SEA Timber
-        </div>
-        <div class='ter-words sec-list clickable faded'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Circular Design
+          > &nbsp;Circular Design
         </div>
       </div>
     );
@@ -337,18 +316,10 @@ class About extends React.Component {
   render() {
     return (
       <div>
-        <div class='ter-words sec-first clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Project
-        </div>
-        <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Team + Partners
-        </div>
-        <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Publications
-        </div>
-        <div class='ter-words sec-list clickable'>
-          &nbsp;&nbsp;&nbsp;> &nbsp;&nbsp;&nbsp;Contract
-        </div>
+        <div class='ter-words sec-first clickable'>> &nbsp;Project</div>
+        <div class='ter-words sec-list clickable'>> &nbsp;Team + Partners</div>
+        <div class='ter-words sec-list clickable'>> &nbsp;Publications</div>
+        <div class='ter-words sec-list clickable'>> &nbsp;Contract</div>
       </div>
     );
   }
