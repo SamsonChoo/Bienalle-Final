@@ -332,7 +332,9 @@ export default class NavPage extends React.Component {
           <Row>
             <Col xs={2}>
               <div class='header'>
-                <Header></Header>
+                <div class='headersvg'>
+                  <Header></Header>
+                </div>
                 <div class='float-right dots'>
                   <Dots></Dots>
                 </div>

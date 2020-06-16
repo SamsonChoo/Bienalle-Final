@@ -14,7 +14,9 @@ export default class LandingPage extends React.Component {
           <Row>
             <Col xs={2}>
               <div className='header'>
-                <LandingHeader onClick={this.props.onClick}></LandingHeader>
+                <div className='headersvg'>
+                  <LandingHeader onClick={this.props.onClick}></LandingHeader>
+                </div>
                 <div className='float-right dots'>
                   <Dots></Dots>
                 </div>

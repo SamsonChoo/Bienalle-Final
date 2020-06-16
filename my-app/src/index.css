@@ -4,11 +4,12 @@ body {
 }
 
 .overall {
-  margin-left: -1%;
+  margin-left: -2%;
 }
 
 .dots {
-  margin-right: 20%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header {
@@ -85,4 +86,7 @@ body {
 
 .faded {
   color: rgba(255, 255, 255, 0.3);
+}
+
+.headersvg {
 }

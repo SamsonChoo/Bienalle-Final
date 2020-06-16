@@ -6,7 +6,6 @@ export default class Header extends React.Component {
     let w = (window.innerWidth * 0.1).toString(10);
     return (
       <svg
-        className='headersvg'
         width={w}
         height={h}
         viewBox='0 0 171 899'
