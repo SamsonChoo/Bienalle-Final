@@ -2,11 +2,13 @@ import React from 'react';
 
 export default class Header extends React.Component {
   render() {
+    let h = (window.innerHeight * 0.9).toString(10);
+    let w = (window.innerWidth * 0.1).toString(10);
     return (
       <svg
         className='headersvg'
-        width='171'
-        height='899'
+        width={w}
+        height={h}
         viewBox='0 0 171 899'
         fill='none'
         xmlns='http://www.w3.org/2000/svg'

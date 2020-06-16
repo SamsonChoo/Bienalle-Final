@@ -13,6 +13,7 @@ body {
 
 .header {
   margin-top: 15%;
+  display: flex;
 }
 
 .pri-words {

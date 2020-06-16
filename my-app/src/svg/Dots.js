@@ -5,7 +5,7 @@ export default class Dots extends React.Component {
     return (
       <svg
         width='28'
-        height='898'
+        height='840'
         viewBox='0 0 28 898'
         fill='none'
         xmlns='http://www.w3.org/2000/svg'

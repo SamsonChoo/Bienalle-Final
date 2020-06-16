@@ -2,11 +2,13 @@ import React from 'react';
 
 export default class LandingHeader extends React.Component {
   render() {
+    let h = (window.innerHeight * 0.9).toString(10);
+    let w = (window.innerWidth * 0.1).toString(10);
     return (
       <svg
         onClick={this.props.onClick}
-        width='172'
-        height='901'
+        width={w}
+        height={h}
         viewBox='0 0 172 901'
         fill='none'
         xmlns='http://www.w3.org/2000/svg'
