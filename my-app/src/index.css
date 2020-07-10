@@ -3,6 +3,12 @@ body {
   transition: 1.2s;
 }
 
+@media only screen and (min-width: 1000px) {
+  .overall {
+    margin-left: -2%;
+  }
+}
+
 .overall {
   margin-left: -2%;
 }
@@ -86,4 +92,8 @@ body {
 
 .faded {
   color: rgba(255, 255, 255, 0.3);
+}
+
+.dots2 {
+  margin-right: auto;
 }

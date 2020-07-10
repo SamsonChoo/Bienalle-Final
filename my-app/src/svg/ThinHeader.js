@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 
 export default class ThinHeader extends Component {
   render() {
+    let h = (window.innerHeight * 0.9).toString(10);
+    let w = (window.innerWidth * 0.05).toString(10);
     return (
       <svg
-        width='43'
-        height='898'
+        width={w}
+        height={h}
         viewBox='0 0 43 898'
         fill='none'
         xmlns='http://www.w3.org/2000/svg'

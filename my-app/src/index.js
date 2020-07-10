@@ -3,11 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from 'react-dom';
 import HomePage from './Home';
 import './index.css';
-import CYU from './CYU';
+import PlaceHolder from './PlaceHolder';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HomePage />
+    <PlaceHolder />
   </React.StrictMode>,
   document.getElementById('root')
 );
