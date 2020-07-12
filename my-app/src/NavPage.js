@@ -9,6 +9,7 @@ import ThickLine from './svg/ThickLine';
 import ThinLine from './svg/ThinLine';
 import ThinnestLine from './svg/ThinnestLine';
 import './index.css';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 class PrimaryCol extends React.Component {
   render() {
@@ -45,12 +46,14 @@ class SecondaryCol extends React.Component {
       <div class='flex-column'>
         <div onMouseOver={this.props.onClickHighRise}>
           <ThinLine></ThinLine>
-          <div
-            class='sec-words sec-first clickable'
-            onClick={this.props.onClickHighRise}
-          >
-            > &nbsp;Future Hybrid Highrise Commune
-          </div>
+          <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+            <div
+              class='sec-words sec-first clickable'
+              onClick={this.props.onClickHighRise}
+            >
+              > &nbsp;Future Hybrid Highrise Commune
+            </div>
+          </Link>
           <div class='sec-words sec-list slanted'>Become a tenant:</div>
           <div class='sec-words sec-list clickable'>
             > &nbsp;Building Parcelation Live
@@ -97,12 +100,20 @@ class SecondaryCol extends React.Component {
         </div>
         <div onMouseOver={this.props.onClickAbout} class='box3'>
           <ThinLine></ThinLine>
-          <div class='sec-words sec-first clickable'>> &nbsp;Project</div>
-          <div class='sec-words sec-list clickable'>
-            > &nbsp;Team + Partners
-          </div>
-          <div class='sec-words sec-list clickable'>> &nbsp;Publications</div>
-          <div class='sec-words sec-list clickable'>> &nbsp;Contract</div>
+          <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+            <div class='sec-words sec-first clickable'>> &nbsp;Project</div>
+          </Link>
+          <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+            <div class='sec-words sec-list clickable'>
+              > &nbsp;Team + Partners
+            </div>
+          </Link>
+          <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+            <div class='sec-words sec-list clickable'>> &nbsp;Publications</div>
+          </Link>
+          <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+            <div class='sec-words sec-list clickable'>> &nbsp;Contract</div>
+          </Link>
         </div>
       </div>
     );
@@ -160,15 +171,21 @@ class FutureHybridHighriseCommune extends React.Component {
   render() {
     return (
       <div>
-        <div class='ter-words sec-first clickable'>
-          > &nbsp;Design Study &#038; Polyvalency
-        </div>
-        <div class='ter-words sec-list clickable'>
-          > &nbsp;Design Study &#038; Vertical Community
-        </div>
-        <div class='ter-words sec-list clickable'>
-          > &nbsp;Hybrid Construction
-        </div>
+        <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+          <div class='ter-words sec-first clickable'>
+            > &nbsp;Design Study &#038; Polyvalency
+          </div>
+        </Link>
+        <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+          <div class='ter-words sec-list clickable'>
+            > &nbsp;Design Study &#038; Vertical Community
+          </div>
+        </Link>
+        <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+          <div class='ter-words sec-list clickable'>
+            > &nbsp;Hybrid Construction
+          </div>
+        </Link>
       </div>
     );
   }
@@ -178,24 +195,44 @@ class Research extends React.Component {
   render() {
     return (
       <div>
-        <div class='ter-words sec-first clickable'>
-          > &nbsp;Participation/Tool
-        </div>
-        <div class='ter-words sec-list clickable'>
-          > &nbsp;Resilience to Change/Tool
-        </div>
-        <div class='ter-words sec-list clickable'>> &nbsp;Embodied Carbon</div>
-        <div class='ter-words sec-list clickable'>
-          > &nbsp;Hybrid Construction
-        </div>
-        <div class='ter-words sec-list clickable'>
-          > &nbsp;Design-based LCA Tool
-        </div>
-        <div class='ter-words sec-list clickable'>
-          > &nbsp;Data-based LCA Tool
-        </div>
-        <div class='ter-words sec-list clickable'>> &nbsp;SEA Timber</div>
-        <div class='ter-words sec-list clickable'>> &nbsp;Circular Design</div>
+        <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+          <div class='ter-words sec-first clickable'>
+            > &nbsp;Participation/Tool
+          </div>
+        </Link>
+        <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+          <div class='ter-words sec-list clickable'>
+            > &nbsp;Resilience to Change/Tool
+          </div>
+        </Link>
+        <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+          <div class='ter-words sec-list clickable'>
+            > &nbsp;Embodied Carbon
+          </div>
+        </Link>
+        <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+          <div class='ter-words sec-list clickable'>
+            > &nbsp;Hybrid Construction
+          </div>
+        </Link>
+        <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+          <div class='ter-words sec-list clickable'>
+            > &nbsp;Design-based LCA Tool
+          </div>
+        </Link>
+        <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+          <div class='ter-words sec-list clickable'>
+            > &nbsp;Data-based LCA Tool
+          </div>
+        </Link>
+        <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+          <div class='ter-words sec-list clickable'>> &nbsp;SEA Timber</div>
+        </Link>
+        <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+          <div class='ter-words sec-list clickable'>
+            > &nbsp;Circular Design
+          </div>
+        </Link>
       </div>
     );
   }
