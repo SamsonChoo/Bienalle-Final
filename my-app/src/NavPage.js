@@ -45,8 +45,11 @@ class SecondaryCol extends React.Component {
       <div class='flex-column'>
         <div onMouseOver={this.props.onClickHighRise}>
           <ThinLine></ThinLine>
-          <div class='sec-words sec-first' onClick={this.props.onClickHighRise}>
-            Future Hybrid Highrise Commune
+          <div
+            class='sec-words sec-first clickable'
+            onClick={this.props.onClickHighRise}
+          >
+            > &nbsp;Future Hybrid Highrise Commune
           </div>
           <div class='sec-words sec-list slanted'>Become a tenant:</div>
           <div class='sec-words sec-list clickable'>
@@ -58,34 +61,41 @@ class SecondaryCol extends React.Component {
           <ThinLine></ThinLine>
           <div
             class='sec-words sec-first'
+            onClick={this.props.onClickResearch}
+            onMouseOver={this.props.onClickResearch}
+          >
+            > &nbsp;Introduction
+          </div>
+          <div
+            class='sec-words research'
             onClick={this.props.onClickDecarb}
             onMouseOver={this.props.onClickDecarb}
           >
             Decarbonisation
           </div>
           <div
-            class='sec-words sec-list'
+            class='sec-words research'
             onClick={this.props.onClickDemographic}
             onMouseOver={this.props.onClickDemographic}
           >
             Demographic changes
           </div>
           <div
-            class='sec-words sec-list'
+            class='sec-words research'
             onClick={this.props.onClickParticipation}
             onMouseOver={this.props.onClickParticipation}
           >
             Participation
           </div>
           <div
-            class='sec-words sec-list'
+            class='sec-words research'
             onClick={this.props.onClickDigital}
             onMouseOver={this.props.onClickDigital}
           >
             Digital Tools
           </div>
         </div>
-        <div onMouseOver={this.props.onClickAbout} class='box2'>
+        <div onMouseOver={this.props.onClickAbout} class='box3'>
           <ThinLine></ThinLine>
           <div class='sec-words sec-first clickable'>> &nbsp;Project</div>
           <div class='sec-words sec-list clickable'>
@@ -364,6 +374,12 @@ export default class NavPage extends React.Component {
             <Col xs={3}>
               <div class='sec-col'>
                 <SecondaryCol
+                  onClickResearch={() => {
+                    this.setState({
+                      currentView: 'research',
+                    });
+                    document.body.style.backgroundColor = '#FFCC19';
+                  }}
                   onClickHighRise={() => {
                     this.setState({
                       currentView: 'highrise',

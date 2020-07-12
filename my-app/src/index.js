@@ -7,7 +7,8 @@ import PlaceHolder from './PlaceHolder';
 
 ReactDOM.render(
   <React.StrictMode>
-    <PlaceHolder title='Title here' subtitle='Subtitle here' color='#FFCC19' />
+    {/* <PlaceHolder title='Title here' subtitle='Subtitle here' color='#FFCC19' /> */}
+    <HomePage></HomePage>
   </React.StrictMode>,
   document.getElementById('root')
 );
