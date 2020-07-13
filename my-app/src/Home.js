@@ -4,6 +4,8 @@ import NavPage from './NavPage';
 import './index.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import PlaceHolder from './PlaceHolder';
+import PlaceHolder2 from './PlaceHolder2';
+
 export default class HomePage extends React.Component {
   constructor() {
     super();
@@ -26,9 +28,45 @@ export default class HomePage extends React.Component {
             </Route>
             <Route exact path='/fhhc'>
               <PlaceHolder
-                title='Title here'
-                subtitle='Subtitle here'
+                subtitle='Future Hybrid Highrise Commune'
+                title='Hybrid Highrise Commune'
                 color='#FFCC19'
+              />
+            </Route>
+            <Route exact path='/polyvalency'>
+              <PlaceHolder
+                subtitle='Design Study &#038; Polyvalency'
+                title='Hybrid Highrise Commune'
+                color='#FFCC19'
+              />
+            </Route>
+            <Route exact path='/verticalcomm'>
+              <PlaceHolder
+                subtitle='Design Study &#038; Vertical Community'
+                title='Hybrid Highrise Commune'
+                color='#FFCC19'
+              />
+            </Route>
+            <Route exact path='/hybrid'>
+              <PlaceHolder
+                subtitle='Hybrid Construction'
+                title='Hybrid Highrise Commune'
+                color='#FFCC19'
+              />
+            </Route>
+            <Route exact path='/participation'>
+              <PlaceHolder2
+                title='Participation | Decarbonisation'
+                title2='Demographic Changes | Digital Tools'
+                subtitle='Participation Tool'
+                color='#85E2B5'
+              />
+            </Route>
+            <Route exact path='/about'>
+              <PlaceHolder
+                title='About'
+                subtitle='With the support of SUTD-MIT IDC, ARUP and ...'
+                color='#A5BBC8'
               />
             </Route>
           </Switch>

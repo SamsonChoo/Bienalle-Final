@@ -100,18 +100,18 @@ class SecondaryCol extends React.Component {
         </div>
         <div onMouseOver={this.props.onClickAbout} class='box3'>
           <ThinLine></ThinLine>
-          <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+          <Link to='/about' style={{ textDecoration: 'none' }}>
             <div class='sec-words sec-first clickable'>> &nbsp;Project</div>
           </Link>
-          <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+          <Link to='/about' style={{ textDecoration: 'none' }}>
             <div class='sec-words sec-list clickable'>
               > &nbsp;Team + Partners
             </div>
           </Link>
-          <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+          <Link to='/about' style={{ textDecoration: 'none' }}>
             <div class='sec-words sec-list clickable'>> &nbsp;Publications</div>
           </Link>
-          <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+          <Link to='/about' style={{ textDecoration: 'none' }}>
             <div class='sec-words sec-list clickable'>> &nbsp;Contract</div>
           </Link>
         </div>
@@ -171,17 +171,17 @@ class FutureHybridHighriseCommune extends React.Component {
   render() {
     return (
       <div>
-        <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+        <Link to='/polyvalency' style={{ textDecoration: 'none' }}>
           <div class='ter-words sec-first clickable'>
             > &nbsp;Design Study &#038; Polyvalency
           </div>
         </Link>
-        <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+        <Link to='/verticalcomm' style={{ textDecoration: 'none' }}>
           <div class='ter-words sec-list clickable'>
             > &nbsp;Design Study &#038; Vertical Community
           </div>
         </Link>
-        <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+        <Link to='/hybrid' style={{ textDecoration: 'none' }}>
           <div class='ter-words sec-list clickable'>
             > &nbsp;Hybrid Construction
           </div>
@@ -195,7 +195,7 @@ class Research extends React.Component {
   render() {
     return (
       <div>
-        <Link to='/fhhc' style={{ textDecoration: 'none' }}>
+        <Link to='/participation' style={{ textDecoration: 'none' }}>
           <div class='ter-words sec-first clickable'>
             > &nbsp;Participation/Tool
           </div>

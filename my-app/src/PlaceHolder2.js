@@ -29,6 +29,7 @@ export default class PlaceHolder2 extends React.Component {
             </Col>
             <Col>
               <div class='title'>{this.props.title}</div>
+              <div class='title'>{this.props.title2}</div>
               <div class='subtitle'>{this.props.subtitle}</div>
               <img src={Image} class='test'></img>
             </Col>
