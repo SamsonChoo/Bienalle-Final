@@ -18,7 +18,7 @@ export default class HomePage extends React.Component {
       <Router>
         <div>
           <Switch>
-            <Route exact path='/'>
+            <Route exact path='/Bienalle-Final'>
               {currentView === 'home' && (
                 <LandingPage
                   onClick={() => this.setState({ currentView: 'home2' })}
